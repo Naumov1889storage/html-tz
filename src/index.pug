@@ -1,0 +1,83 @@
+extends pug-components/layout
+
+block content
+    .card
+        ul(class="tab-title" data-tabs)
+            li.tab-title__item
+                a(data-tabby-default href="#card-tab-1" class="tab-title__link")
+                    i.icon.icon_1
+                    | Видео
+            li.tab-title__item
+                a(href="#card-tab-2" class="tab-title__link")
+                    i.icon.icon_2
+                    | Фото
+            li.tab-title__item
+                a(href="#card-tab-3" class="tab-title__link")
+                    i.icon.icon_3
+                    | Дизайн-проект
+            li.tab-title__item
+                a(href="#card-tab-4" class="tab-title__link")
+                    i.icon.icon_4
+                    | Замеры
+            li.tab-title__item
+                a(href="#card-tab-5" class="tab-title__link")
+                    i.icon.icon_5
+                    | Фото до
+
+
+
+        ul.tab-content.card__tab-content-container
+            li.tab-content__item#card-tab-1
+                .tab-content__grid
+                    .tab-content__left
+                        .video
+                            .video__play-btn.play-btn.js-video-play-btn
+                                .play-btn__circle-1
+                                .play-btn__circle-2
+                                .play-btn__circle-3
+                            .video__thumb-container
+                                img.video__thumb(style="margin-left:-1px;margin-top: -1px" src="img/picture-thumbnail-1.jpg")
+                            .video__video-container.js-video-container(data-video-id="SJrY3p9nzVY")
+
+                    .tab-content__right
+                        .tab-content-text
+                            .tab-content-text__title Дом в коттеджном посёлке «Парк Вилл» на Ильинском шоссе.
+                            .tab-content-text__subtitle
+                                span Площадь:
+                                span 3000 м<sup>2</sup>
+
+                        button.btn Украсить дом
+
+            li.tab-content__item#card-tab-2
+                .tab-content__grid
+                    .tab-content__left
+                        .video
+                            .video__play-btn.play-btn.js-video-play-btn
+                                .play-btn__circle-1
+                                .play-btn__circle-2
+                                .play-btn__circle-3
+                            .video__thumb-container
+                                img.video__thumb(style="margin-left:-1px;margin-top: -1px" src="img/picture-thumbnail-2.jpg")
+                            .video__video-container.js-video-container(data-video-id="mnk0KjWxgMA")
+
+                    .tab-content__right
+                        .tab-content-text
+                            .tab-content-text__title Торговый центр «Пассаж» в г.Мытищи
+                            .tab-content-text__subtitle
+                                span Площадь:
+                                span 750 м<sup>2</sup>
+
+                        button.btn Украсить дом
+
+            li.tab-content__item#card-tab-3
+                div(style="padding: 16px;font-size: 14px;") Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam animi blanditiis deleniti earum est facere, libero magnam modi nam natus necessitatibus neque, numquam praesentium provident quia saepe tenetur veniam.
+            li.tab-content__item#card-tab-4
+                div(style="padding: 16px;font-size: 14px;") Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi atque blanditiis culpa dicta doloribus ea eaque id impedit labore laudantium, magnam minus molestiae optio praesentium quasi quia reprehenderit tenetur vero vitae voluptatem voluptates, voluptatibus. A ab animi asperiores, assumenda atque autem, deserunt doloribus ea eos et eveniet illum ipsam itaque, molestias nesciunt officiis placeat ratione rem rerum temporibus veniam.
+            li.tab-content__item#card-tab-5
+                div(style="padding: 16px;font-size: 14px;") Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam animi blanditiis deleniti earum est facere, libero magnam modi nam natus necessitatibus neque, numquam praesentium provident quia saepe tenetur veniam.
+
+
+            // https://www.youtube.com/watch?v=SJrY3p9nzVY
+            // https://www.youtube.com/watch?v=mnk0KjWxgMA
+            // https://www.youtube.com/watch?v=G1qq79WMHfI
+            // https://www.youtube.com/watch?v=iy9uaodDgos

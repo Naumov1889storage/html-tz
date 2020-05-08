@@ -1,0 +1,16 @@
+doctype html
+html(lang="ru-Ru")
+    head
+        meta(charset = 'utf-8')
+        meta(name='viewport', content="initial-scale=1.0, width=device-width")
+        block title
+            -let title = "Наумов. Тестовое задание"
+            -let page = ''
+        title #{title + (page.length ? " - " : "") + (typeof page === 'string' ? page : page[page.length - 1])}
+        link(rel="stylesheet" href="css/concat-css-libs.css")
+        link(rel="stylesheet" href="css/concat-css.css")
+    body
+        block content
+
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/tabby/12.0.3/js/tabby.polyfills.min.js")
+        script(src="js/common.js")
