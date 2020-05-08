@@ -383,27 +383,27 @@ body {
 }
 @font-face {
   font-family: 'MuseoSansCyrl_100';
-  src: url("../../../../fonts/MuseoSansCyrl.otf");
+  src: url("../fonts/MuseoSansCyrl.otf");
 }
 
 @font-face {
   font-family: 'MuseoSansCyrl_300';
-  src: url("../../../../fonts/MuseoSansCyrl_0.otf");
+  src: url("../fonts/MuseoSansCyrl_0.otf");
 }
 
 @font-face {
   font-family: 'MuseoSansCyrl_500';
-  src: url("../../../../fonts/MuseoSansCyrl_1.otf");
+  src: url("../fonts/MuseoSansCyrl_1.otf");
 }
 
 @font-face {
   font-family: 'MuseoSansCyrl_700';
-  src: url("../../../../fonts/MuseoSansCyrl_2.otf");
+  src: url("../fonts/MuseoSansCyrl_2.otf");
 }
 
 @font-face {
   font-family: 'MuseoSansCyrl_900';
-  src: url("../../../../fonts/MuseoSansCyrl_3.otf");
+  src: url("../fonts/MuseoSansCyrl_3.otf");
 }
 .video {
   position: relative;
